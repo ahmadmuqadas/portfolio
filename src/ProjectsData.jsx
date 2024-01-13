@@ -1,8 +1,8 @@
 
 const projectsData = {
   resturant: {
-    url: 'https://resturant-rose.vercel.app/',
-    name: 'Delicious Resturant',
+    url: 'https://basilico-nine.vercel.app/',
+    name: 'Basilico Resturant',
     techs: 'The technology that used',
     features: 'feautres'
   },
