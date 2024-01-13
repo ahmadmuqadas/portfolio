@@ -3,6 +3,8 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import About from './About'
 import Projects from './Projects'
+import projectsData from './ProjectsData'
+
 
 const Home = () => {
   return (
@@ -10,7 +12,8 @@ const Home = () => {
         <Navbar/>
         <Hero/>
         <About/>
-        <Projects/>
+    
+        <Projects url={projectsData.resturant.url} projectName={projectsData.resturant.name}/>
         </div>
   )
 }
